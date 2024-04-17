@@ -10,7 +10,13 @@ public class Car extends Vehicle {
     private int seats;
 
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
+        super(name);
         //Hint: Car extends Vehicle
+    }
+
+    public Car(String name, boolean isManual) {
+        super(name);
+
     }
 
     public void changeGear(int newGear){
