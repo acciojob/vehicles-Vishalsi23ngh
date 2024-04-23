@@ -6,28 +6,5 @@ public class Main {
         mercedes.move(40, 0);
         mercedes.accelerate(20);
         mercedes.accelerate(-60);
-        WaterVehicle boat = new WaterVehicle() {
-
-            @Override
-            public String getVehicleName() {
-                return setVehicleName();
-            }
-
-            @Override
-            public int getVehicleCapacity() {
-                return setVehicleCapacity();
-            }
-
-            public String setVehicleName() {
-                return "Ocean";
-            }
-
-
-            public int setVehicleCapacity() {
-                return 65;
-            }
-        };
-        System.out.println(boat.getVehicleName());
-        System.out.println(boat.getVehicleCapacity());
     }
 }
